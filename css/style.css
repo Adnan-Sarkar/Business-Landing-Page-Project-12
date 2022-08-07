@@ -38,7 +38,7 @@ nav {
 }
 
 .nav-brand img {
-    width: 100px;
+    width: 120px;
 }
 
 .nav-items {
@@ -118,7 +118,7 @@ nav {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 1.5;
-    margin: 20px 0;
+    margin: 20px 0 30px 0;
     letter-spacing: 1px;
 }
 
@@ -145,6 +145,7 @@ nav {
 /* ============== about ============== */
 #about {
     margin: 100px;
+    overflow: hidden;
 }
 
 .about-tittle h2 {
@@ -180,6 +181,7 @@ nav {
 .about-video {
     padding: 0 100px;
     position: relative;
+    overflow: hidden;
 }
 
 .about-video img {
