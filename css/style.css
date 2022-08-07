@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+/* ============== button css ============== */
+.main-btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background-color: #8BB7A2;
+    padding: 15px 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* ============== navbar ============== */
+nav {
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-brand img {
+    width: 100px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items li {
+    margin-left: 40px;
+}
+
+.nav-items li:first-child {
+    margin-left: 0;
+}
+
+.nav-item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+
+.nav-items li:last-child {
+    margin-left: 100px;
+    background-color: transparent;
+    border: 1px solid #7D8188;
+    padding: 8px 50px;
+    transition: border-color 200ms linear;
+    cursor: pointer;
+}
+
+.nav-items li:last-child:hover {
+    border-color: #b8b8b8;
+}
+
+
+/* ============== hero ============== */
+#hero {
+    padding: 30px 0 100px 0;
+    background-color: #636C79;
+}
+
+.banner-content {
+    margin: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.banner-left {
+    width: 50%;
+}
+
+.banner-right {
+    width: 50%;
+    color: #fff;
+}
+
+.banner-img {
+    width: 450px;
+    height: 525px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.banner-img img {
+    width: 100%;
+    transform: scale(2.5);
+}
+
+.banner-right h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+}
+
+.banner-right p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+
+.banner-input {
+    width: 500px;
+    padding: 7px 7px 7px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.banner-input i {
+    color: #000;
+}
+
+.banner-input input {
+    outline: none;
+    border: none;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+/* ============== about ============== */
+#about {
+    margin: 100px;
+}
+
+.about-tittle h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.about-success-counters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.about-success-counter {
+    margin: 0 100px;
+    text-align: center;
+}
+
+.about-success-counter h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.about-success-counter span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.about-video {
+    padding: 0 100px;
+    position: relative;
+}
+
+.about-video img {
+    width: 100%;
+}
+
+.about-video i {
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 25px;
+    color: #8BB7A2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+/* ============== services ============== */
+#services {
+    margin: 100px;
+}
+
+.service-tittle h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.service-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.service-content-text {
+    margin: 0 100px;
+}
+
+.service-content-image {
+    margin: 0 100px;
+}
+
+.service-content-text h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.service-content-text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #686A6C;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+
+.service-img {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.service-img img {
+    width: 100%;
+}
+
+/* ============== teams ============== */
+#teams {
+    margin: 100px;
+}
+
+.teams-tittle {
+    margin: 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teams-tittle h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.teams-tittle p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #686A6C;
+    line-height: 1.5;
+}
+
+.team-cards {
+    margin: 50px 100px 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team-card {
+    width: 400px;
+    margin: 0 30px 50px 30px;
+}
+
+.team-card-top {
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.team-card-top img {
+    width: 100%;
+}
+
+.team-card-bottom h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.team-card-bottom p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #686A6C;
+    line-height: 1.5;
+}
+
+.teams-see-more {
+    margin: 80px;
+    text-align: center;
+}
+
+
+/* ============== footer ============== */
+footer {
+    padding: 100px 100px;
+    background-color: #10181D;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #31393E;
+}
+
+.footer-brand img {
+    width: 150px;
+}
+
+.footer-social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.footer-social-icons a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #282F34;
+    margin-left: 20px;
+}
+
+.footer-social-icons a:first-child {
+    margin-left: 0;
+}
+
+.footer-bottom {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-items li {
+    margin: 20px 0;
+}
+
+.footer-item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #C3C5C7;
+}
