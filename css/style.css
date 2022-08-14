@@ -31,7 +31,13 @@ ul {
 
 /* ============== navbar ============== */
 nav {
-    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-content {
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -71,6 +77,14 @@ nav {
 
 .nav-items li:last-child:hover {
     border-color: #b8b8b8;
+}
+
+#nav-responsive-click {
+    display: none;
+}
+
+.nav-responsive-btn{
+    display: none;
 }
 
 
@@ -114,12 +128,20 @@ nav {
     font-size: 70px;
 }
 
+.banner-right h1 span {
+    display: block;
+}
+
 .banner-right p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 1.5;
     margin: 20px 0 30px 0;
     letter-spacing: 1px;
+}
+
+.banner-right p span {
+    display: block;
 }
 
 .banner-input {
@@ -153,6 +175,10 @@ nav {
     font-size: 40px;
     margin-bottom: 60px;
     text-align: center;
+}
+
+.about-tittle h2 span {
+    display: block;
 }
 
 .about-success-counters {
@@ -216,6 +242,10 @@ nav {
     text-align: center;
 }
 
+.service-tittle h2 span {
+    display: block;
+}
+
 .service-content {
     display: flex;
     align-items: center;
@@ -237,12 +267,20 @@ nav {
     margin-bottom: 20px;
 }
 
+.service-content-text h2 span {
+    display: block;
+}
+
 .service-content-text p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #686A6C;
     margin-bottom: 50px;
     line-height: 1.5;
+}
+
+.service-content-text p span {
+    display: block;
 }
 
 .service-img {
@@ -273,11 +311,19 @@ nav {
     text-align: center;
 }
 
+.teams-tittle h2 span {
+    display: block;
+}
+
 .teams-tittle p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #686A6C;
     line-height: 1.5;
+}
+
+.teams-tittle p span {
+    display: block;
 }
 
 .team-cards {
@@ -314,6 +360,10 @@ nav {
     font-size: 18px;
     color: #686A6C;
     line-height: 1.5;
+}
+
+.team-card-bottom p span {
+    display: block;
 }
 
 .teams-see-more {
@@ -365,6 +415,7 @@ footer {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer-links h2 {
